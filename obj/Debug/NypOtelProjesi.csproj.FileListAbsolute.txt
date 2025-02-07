@@ -1,0 +1,52 @@
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\NypOtelProjesi.exe.config
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\NypOtelProjesi.exe
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\NypOtelProjesi.pdb
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\MySql.Data.dll
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\System.Memory.dll
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\System.Buffers.dll
+C:\Users\Emre\source\repos\NypOtelProjesi\bin\Debug\MySql.Data.xml
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelProjesi.csproj.AssemblyReference.cache
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelProjesi.Properties.Resources.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.anamenu_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.ekstra_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.fatura_goruntuleme_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.fatura_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.giris_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.kayit_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.musteri_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.oda_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.rezervasyon_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypProje.UI.yonetici_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelProjesi.csproj.GenerateResource.cache
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelProjesi.csproj.CoreCompileInputs.cache
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelP.3A88ACDF.Up2Date
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelProjesi.exe
+C:\Users\Emre\source\repos\NypOtelProjesi\obj\Debug\NypOtelProjesi.pdb
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelProjesi.csproj.AssemblyReference.cache
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelProjesi.Properties.Resources.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.anamenu_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.ekstra_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.fatura_goruntuleme_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.fatura_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.giris_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.kayit_sayfa.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.musteri_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.oda_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.rezervasyon_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypProje.UI.yonetici_panel.resources
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelProjesi.csproj.GenerateResource.cache
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelProjesi.csproj.CoreCompileInputs.cache
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\NypOtelProjesi.exe.config
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\NypOtelProjesi.exe
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\NypOtelProjesi.pdb
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\MySql.Data.dll
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\System.Memory.dll
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\System.Buffers.dll
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\bin\Debug\MySql.Data.xml
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelP.3A88ACDF.Up2Date
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelProjesi.exe
+C:\Users\Emre\source\repos\NypOtelProjesi - Kopya\obj\Debug\NypOtelProjesi.pdb

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4BF5928-6E68-482D-B0E0-A2183CBA4FAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NypOtelProjesi</RootNamespace>
+    <AssemblyName>NypOtelProjesi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=9.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 9.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\dbBaglanti.cs" />
+    <Compile Include="DAL\ekstra_dal.cs" />
+    <Compile Include="DAL\fatura_dal.cs" />
+    <Compile Include="DAL\musteri_dal.cs" />
+    <Compile Include="DAL\oda_dal.cs" />
+    <Compile Include="DAL\rezervasyon_dal.cs" />
+    <Compile Include="DAL\yonetici_dal.cs" />
+    <Compile Include="DOMAIN\ekstra_service.cs" />
+    <Compile Include="DOMAIN\fatura_service.cs" />
+    <Compile Include="DOMAIN\musteri_service.cs" />
+    <Compile Include="DOMAIN\oda_service.cs" />
+    <Compile Include="DOMAIN\rezervasyon_service.cs" />
+    <Compile Include="DOMAIN\yonetici_service.cs" />
+    <Compile Include="ENTITY\ekstra_entity.cs" />
+    <Compile Include="ENTITY\fatura_entity.cs" />
+    <Compile Include="ENTITY\musteri_entity.cs" />
+    <Compile Include="ENTITY\oda_entity.cs" />
+    <Compile Include="ENTITY\rezervasyon_entity.cs" />
+    <Compile Include="ENTITY\yonetici_entity.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\anamenu_sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\anamenu_sayfa.Designer.cs">
+      <DependentUpon>anamenu_sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ekstra_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ekstra_panel.Designer.cs">
+      <DependentUpon>ekstra_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\fatura_goruntuleme_sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\fatura_goruntuleme_sayfa.Designer.cs">
+      <DependentUpon>fatura_goruntuleme_sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\fatura_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\fatura_panel.Designer.cs">
+      <DependentUpon>fatura_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\giris_sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\giris_sayfa.Designer.cs">
+      <DependentUpon>giris_sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\kayit_sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\kayit_sayfa.Designer.cs">
+      <DependentUpon>kayit_sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\musteri_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\musteri_panel.Designer.cs">
+      <DependentUpon>musteri_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\oda_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\oda_panel.Designer.cs">
+      <DependentUpon>oda_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\rezervasyon_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\rezervasyon_panel.Designer.cs">
+      <DependentUpon>rezervasyon_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\yonetici_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\yonetici_panel.Designer.cs">
+      <DependentUpon>yonetici_panel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\anamenu_sayfa.resx">
+      <DependentUpon>anamenu_sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ekstra_panel.resx">
+      <DependentUpon>ekstra_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\fatura_goruntuleme_sayfa.resx">
+      <DependentUpon>fatura_goruntuleme_sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\fatura_panel.resx">
+      <DependentUpon>fatura_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\giris_sayfa.resx">
+      <DependentUpon>giris_sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\kayit_sayfa.resx">
+      <DependentUpon>kayit_sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\musteri_panel.resx">
+      <DependentUpon>musteri_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\oda_panel.resx">
+      <DependentUpon>oda_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\rezervasyon_panel.resx">
+      <DependentUpon>rezervasyon_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\yonetici_panel.resx">
+      <DependentUpon>yonetici_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
