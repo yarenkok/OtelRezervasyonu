@@ -18,6 +18,7 @@ Bu proje, .NET Framework kullanılarak geliştirilmiş n-katmanlı mimariye sahi
 - Yönetici paneli ile tam sistem kontrolü
 
 ## Veri Doğrulama ve Kısıtlamalar
+
 ### Müşteri İşlemleri
 - TC Kimlik Numarası:
   - 11 haneli olmak zorunda
@@ -42,6 +43,7 @@ Bu proje, .NET Framework kullanılarak geliştirilmiş n-katmanlı mimariye sahi
   - Çakışan rezervasyonlar engellenir
 
 ## Katmanlar
+
 1. **Sunum Katmanı (Presentation Layer(UI))**
    - Kullanıcı arayüzü
    - Kullanıcı etkileşimleri
@@ -58,6 +60,7 @@ Bu proje, .NET Framework kullanılarak geliştirilmiş n-katmanlı mimariye sahi
    - MySQL bağlantı yönetimi
 
 ## Veritabanı Yapısı
+
 Sistem aşağıdaki ana tablolardan oluşmaktadır:
 - Yonetici_tablo
 - Musteri_tablo
@@ -67,19 +70,21 @@ Sistem aşağıdaki ana tablolardan oluşmaktadır:
 - Ekstra_tablo
 
 ## Temel Fonksiyonlar
+
 1. **Ana Sayfa**
    - Sayfalar arası geçiş
    - Anlık tarih/saat gösterimi
    - Çıkış yapma
+    
      ![image](https://github.com/user-attachments/assets/bbceb69b-a3ea-4bfe-83d7-e2e9c5322244)
 
 1. **Yönetici İşlemleri**
    - Sistem yönetimi
    - Giriş yapma
    - Kayıt Olma
+     
      ![image](https://github.com/user-attachments/assets/a36791d5-46bf-4186-bc03-eebc12290425)
      ![image](https://github.com/user-attachments/assets/dd55597c-a5e8-4184-b027-3981690a3f5a)
-
      ![image](https://github.com/user-attachments/assets/c4821188-0916-475a-ba9d-634b347722cf)
 
 
@@ -88,6 +93,7 @@ Sistem aşağıdaki ana tablolardan oluşmaktadır:
    - Müşteri kaydı
    - Müşteri bilgi güncelleme
    - Müşteri silme
+   
      ![image](https://github.com/user-attachments/assets/a0957940-98cd-4dcd-86a8-b07b2b32007f)
 
      
@@ -97,12 +103,14 @@ Sistem aşağıdaki ana tablolardan oluşmaktadır:
    - Oda fiyat belirleme
    - Oda bilgi güncelleme
    - Oda silme
+   
      ![image](https://github.com/user-attachments/assets/61deddf4-afdd-4ff1-986b-9d35f1746ac9)
 
   
 4. **Kampanya İşlemleri**
    - Kampanya oluşturma
    - Kampanya fiyat belirleme
+   
      ![image](https://github.com/user-attachments/assets/2a82ea2a-46fd-49f9-a834-5e4b3cebcf4d)
 
 
@@ -112,6 +120,7 @@ Sistem aşağıdaki ana tablolardan oluşmaktadır:
    - Rezervasyon iptali
    - Oda müsaitlik kontrolü
    - Toplam tutar hesaplama
+   
      ![image](https://github.com/user-attachments/assets/a95017db-c5c2-4d04-8357-07014a3cc61e)
 
   
@@ -119,6 +128,7 @@ Sistem aşağıdaki ana tablolardan oluşmaktadır:
    - Otomatik fatura oluşturma
    - Fatura görüntüleme
    - Ödeme takibi
+     
      ![image](https://github.com/user-attachments/assets/341dd1a5-2a34-4130-a11f-7433ce329fb6)
      ![image](https://github.com/user-attachments/assets/c60f30e8-b300-4e94-a7f4-35e673f9e47d)
 
@@ -126,15 +136,19 @@ Sistem aşağıdaki ana tablolardan oluşmaktadır:
 
 ## Diyagramlar
 ### ER Diyagramı
+
 ![23c3b3bd-01ee-4d7e-9043-2486c928defc](https://github.com/user-attachments/assets/5885c417-bf3c-443d-9e6a-bc1d2a1e0bf9)
 
 ### Use-Case Diyagramı
+
 ![a90a37e5-b0ca-4efa-8930-eb5cc8af55c9](https://github.com/user-attachments/assets/7bc92ea8-d130-4d10-9cf0-d64f7ecee888)
 
 ### UML Sınıf Diyagramı
+
 ![55dfbaa3-e1bc-4672-8f67-e196787ec1a7](https://github.com/user-attachments/assets/db1c71f7-3ff2-4239-9375-da9447677cc1)
 
 ## Geliştirici
+
 **Yaren Kök**
 
 ## Program Videosu
